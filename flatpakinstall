@@ -7,12 +7,16 @@
 
 # 
 
+#
 sudo add-apt-repository ppa:flatpak/stable
 sudo apt update
 sudo apt install flatpak
      
-
+# add gnome flatpak plugin
 sudo apt install gnome-software-plugin-flatpak
+
+# add flathub
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 echo Systemet genstartes efter 5 sekunder afbryd med CTRL-C
 sleep 7
