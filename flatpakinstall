@@ -1,0 +1,20 @@
+#! /bin/bash
+
+# installation af Flatpak i Ubuntu.
+# Skrevet af Frank Simens
+# frank@simens.dk
+
+sudo apt install flatpak
+
+sudo add-apt-repository ppa:flatpak/stable
+sudo apt update
+sudo apt install flatpak
+
+
+      
+
+sudo apt install gnome-software-plugin-flatpak
+
+echo Systemet genstartes efter 5 sekunder afbryd med CTRL-C
+sleep 7
+
