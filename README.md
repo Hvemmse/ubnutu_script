@@ -1,4 +1,4 @@
-# ubnutu_script
+# ubuntu_script
 en Samling af mine scripts.
 
 
