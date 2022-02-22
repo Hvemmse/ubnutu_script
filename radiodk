@@ -4,7 +4,7 @@
 #!/bin/bash
 
 # Test om mpv ikke existerer
-if [[ ! -f "/usr/bin/mpv" ]]
+if [[ ! -x "/usr/bin/mpv" ]]
 then
 echo
 echo "Mpv ikke fundet , installerer. Run ./radio again"
