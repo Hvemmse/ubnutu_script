@@ -10,7 +10,7 @@ echo
 echo "Mpv ikke fundet , installerer. Run ./radio again"
 
 sudo apt update && sudo apt install mpv
-
+./radiodk
 else
 clear
 PS3='Vælg den station du vil høre: '
