@@ -11,4 +11,4 @@ det kræver curl installeret, hvis man ikke har den, installeres via sudo apt in
 kan bruges som din bash.rc tilføj linien, include /hentede/info.sh i bash.rc filen. Det kan gøres via 
 <code>echo "~/Hentede/info.sh" >> ~/.bash.rc</code> i en terminal efter du har hentet filen via git.
 
-Hent filen med denne kommando <code> git clone https://github.com/Hvemmse/ubuntu_script</code>
+Hent filen med denne kommando <code> git clone https://github.com/Hvemmse/ubnutu_script</code>
