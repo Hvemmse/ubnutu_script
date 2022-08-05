@@ -1,0 +1,20 @@
+# run updates
+clear
+echo
+echo "Ønsker du at køre en update [J/n]? "
+
+read svar
+
+if [[ $svar == "n" ]]
+
+then
+echo
+echo "ok"
+clear
+else
+  sudo nala update && sudo nala upgrade -y
+sleep 2
+clear
+echo "update udført...."
+
+fi
