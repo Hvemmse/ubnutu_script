@@ -1,3 +1,6 @@
+# Add this lines to your .bachrc and you not forget to update
+#
+
 # run updates
 clear
 echo
