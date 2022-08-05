@@ -15,7 +15,7 @@ echo
 echo "ok"
 clear
 else
-  sudo nala update && sudo nala upgrade -y
+  sudo apt update && sudo apt upgrade -y
 sleep 2
 clear
 echo "update udført...."
