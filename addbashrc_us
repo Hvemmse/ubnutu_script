@@ -1,0 +1,23 @@
+# Add these lines to your .bachrc and you don't forget to update
+#
+
+# run updates
+clear
+echo
+echo "Would you like to run an update [Y/n]?"
+
+read answer
+
+if [[ $answer == "n" ]]
+
+then
+echo
+echo "ok"
+clear
+otherwise
+   sudo apt update && sudo apt upgrade -y
+sleep 2
+clear
+echo "update done...."
+
+fi
