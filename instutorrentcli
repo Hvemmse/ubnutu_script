@@ -2,3 +2,10 @@ apt update
 apt upgrade
 apt autoremove
 reboot
+apt install libssl-dev
+wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl1.0/libssl1.0.0_1.0.2n-1ubuntu5_amd64.deb
+sudo apt install ./libssl1.0.0_1.0.2n-1ubuntu5_amd64.deb
+adduser --system --group vpsfix
+wget http://download-hr.utorrent.com/track/beta/endpoint/utserver/os/linux-x64-ubuntu-13-04 -O utserver.tar.gz
+tar xvf utserver.tar.gz -C /opt/
+ln -s /opt/utorrent-server-alpha-v3_3/utserver /usr/bin/utserver
